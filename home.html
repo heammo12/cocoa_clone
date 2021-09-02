@@ -4,32 +4,23 @@
     <link href="styles.css" rel="stylesheet"/>
     <title>Home - My first website</title>
     <style>
-      body{
-        height: 100vh;
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;  /*주축은 수직이 되고 교차축은 수평이 된다. 기본에서 뒤바뀌게 됨!*/
+      a{
+        color: wheat;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 55px;
+        transition: all 1s ease-in-out;
       }
-      div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        font-size: 28px;
-        color: white;
-        height: 300px;
-        background-color: teal;
-      }
-      #second{
-        background-color: antiquewhite;
+      a:hover{
+        border-radius: 20px;
+        color: tomato;
+        background-color: wheat;
       }
     </style>
   </head>
   <body>
-    <div>1</div>
-    <div id="second">2</div>
-    <div>3</div>
+    <a href="#">Go home</a>
   </body>
 </html>
