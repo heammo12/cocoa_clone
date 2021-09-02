@@ -4,25 +4,17 @@
     <link href="styles.css" rel="stylesheet"/>
     <title>Home - My first website</title>
     <style>
-      a{
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: color 1s ease-in-out,
-        border-radius 5s ease-out,
-        background-color 3s linear ;
+      img{
+        border: 5px solid black;
+        border-radius: 50%;
+        transition: transform 2s ease-in-out;
       }
-      a:hover{
-        border-radius: 30px;
-        color: tomato;
-        background-color: wheat;
+      img:hover{
+        transform: rotateX(360deg) scale(0.5);
       }
     </style>
   </head>
   <body>
-    <a href="#">Go home</a>
+    <img  src="img/도시.jpeg">
   </body>
 </html>
