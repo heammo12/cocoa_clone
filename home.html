@@ -1,61 +1,32 @@
 <!DOCTYPE html>
 <html lang="kr">
   <head>
-    <link
-      rel="shortcut icon"
-      sizes="16x16  32x32 64x64"
-      href="http://nomadcoders.co/m.png"
-    />
     <link href="styles.css" rel="stylesheet"/>
     <title>Home - My first website</title>
     <style>
-      /* inline에는 높이와 너비가 없다 (span , a , img )
-          block에는 높이와 너비가 있다
-      */
-      *{
-        border: 2px dashed black;
-      }
-      html{
-        background-color: tomato;
-      }
       body{
-        margin: 20px;
-        padding: 20px;
-        background-color: thistle;
+        margin:20px;
       }
-      div{
-        padding: 20px;
+      .btn{
+        padding: 5px 10px;
+        border-radius: 5px;
       }
-      span{
-        border-style: dotted;
-      }
-      #first{
-        background-color: whitesmoke;
-        width:150px;
-        height: 150px;
-      }
-      #second{
+      .teal{
         background-color: teal;
-        width:100px;
-        height: 100px;
       }
-      #third{
-        background-color: wheat;
-        width:50px;
-        height:50px;
+     .tomato{
+        background-color: tomato;
+        color: white;
       }
-
     </style>
-    <meta name="description" content="This is my website" />
-    <meta charset="utf-8" />
   </head>
   <body>
-    <div id="first">
-      <div id="second">
-        <div id="third">
-          <span>hello</span>
-        </div>
-      </div>
-    </div>
+    <span class="btn teal">Hello!</span>
+    <span class="btn tomato">Hello!</span>
+    <span class="btn teal">Hello!</span>
+    <span class="btn tomato">Hello!</span>
+    <span class="btn teal">Hello!</span>
+    <span class="btn tomato">Hello!</span>
+    <span class="btn teal">Hello!</span>
   </body>
 </html>
