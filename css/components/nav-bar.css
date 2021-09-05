@@ -21,3 +21,10 @@
     left: 15px;
     bottom: 15px;
 }
+.nav__notification__red-dot{
+    position: absolute;
+    color: tomato;
+    left: 35px;
+    bottom: 22px;
+    font-size: 40px;
+}
