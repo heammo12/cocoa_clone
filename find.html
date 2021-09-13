@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find - Cocoa Clone</title>
 </head>
-<body>
+<body id="find-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -17,7 +17,7 @@
             <span>18:43</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
+            <span>100%</span>
             <i class="fas fa-battery-full"></i>
             <i class="fas fa-bolt"></i>
         </div>
@@ -28,8 +28,8 @@
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span>
-                <!-- <span class="nav__notification__red-dot">.</span> -->
                 <i class="fas fa-cog fa-lg"></i>
+                <span class="header-red-dot">.</span>
             </span>
         </div>
     </header>
@@ -70,7 +70,7 @@
                     <h5 class="open-post__title">#BTS</h5>
                     <h6 class="open-post__hashtags">#bts#army#friends</h6>
                     <div class="open-post__members">
-                        <img src="file:///Users/haemosoo/Pictures/Photos%20Library.photoslibrary/originals/E/E2566950-A475-4EF0-9081-EDAB9D4367F1.jpeg"/>
+                        <img src="css/img/album.jpg"/>
                         <span class="open-post__member-count">802 members</span>
                         <div class="divider"></div>
                         <span class="open-post__member-status">Active</span>
@@ -78,11 +78,31 @@
                 </div>
                 <div class="open-post__column">
                     <div class="open-post__photo">
-                        <img src="file:///Users/haemosoo/Pictures/Photos%20Library.photoslibrary/originals/E/E2566950-A475-4EF0-9081-EDAB9D4367F1.jpeg"/>
+                        <img src="css/img/album.jpg"/>
                         <div class="open-post__heart-count"><i class="fas fa-heart fa-xs"></i><span>326</span></div>
                     </div>
                 </div>
             </div>
+
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="css/img/album.jpg"/>
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="css/img/album.jpg"/>
+                        <div class="open-post__heart-count"><i class="fas fa-heart fa-xs"></i><span>326</span></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
  
@@ -95,7 +115,7 @@
             </li>
             <li class="nav__btn"> 
                 <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
+                    <span class="nav__notification badge">9</span>
                     <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
